@@ -19,9 +19,9 @@ body {
 } 
 
 .bg {
-    background-color: #fff;
+    background-color: #ccc;
     border: solid;
-    border-radius: 17px;
+    border-radius: 10px;
     height: 100%;
     width: 100%
 }
@@ -32,6 +32,7 @@ button {
     background-color: #323232;
     border: solid;
     border-radius: 10px;
+    border-color: #ccc;
     color: #fff;
     font-size: 22px;
 } 
@@ -95,9 +96,9 @@ button {
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: 
         "num num num" 
-        "k7    k8    k9"
+        "k1    k2    k3"
         "k4    k5    k6"
-        "k3    k2    k1"
+        "k7    k8    k9"
         "star  k0    hash"
         "Call Call  kEnd";
 }
@@ -128,20 +129,9 @@ button {
         margin: 0.5em 0.2em;
         border-radius: 7px; 
     }
-}
-@media only screen and (max-width: 1024px) {
-    .wrapper {
-        align-items: center;
-        justify-items: center;
-        display: grid; 
-        grid-template-columns: repeat(12, 1fr); 
-        grid-template-rows: repeat(7, 1fr);
-        height: 100%;
-    }
-    .align {
-        width: 100%;
-        height: 100%;
-        grid-column: 4/10;
-        grid-row: 2/7;
+
+    .call, .end {
+        font-size: 22px;
     }
 }
+
