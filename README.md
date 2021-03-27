@@ -9,4 +9,5 @@ TODO:
 - add string text to the dialer text fb
 
 
-![image](https://user-images.githubusercontent.com/11529257/112729336-f7cbcd00-8f01-11eb-8f9f-1bce0ec40648.png)
+![image](https://user-images.githubusercontent.com/11529257/112730010-72e2b280-8f05-11eb-955f-ee8ec865af3b.png)
+
